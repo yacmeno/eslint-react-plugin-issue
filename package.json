@@ -16,7 +16,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
-    "eslint": "^6.4.0",
+    "eslint": "github:yacmeno/eslint#fix-react-initializer",
     "eslint-plugin-react": "^7.14.3",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.40.2",
