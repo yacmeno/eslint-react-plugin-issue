@@ -14,3 +14,13 @@ The config that you've selected requires the following dependencies:
 eslint-plugin-react@latest
 ? Would you like to install them now with npm? Yes
 ```
+
+## See the fix
+The branch "fix" uses the fork suggesting the fix: https://github.com/yacmeno/eslint/tree/fix-react-initializer
+
+To test the fix:
+* Checkout on the fix branch
+* Delete the existing config file: ``` rm .eslintrc.js ```
+* Re-run the initializer: ```./node_modules/.bin/eslint --init ```
+* Due to the setup of this specific project, add ```"parser": "babel-eslint"``` in the new config file
+* If ```npm run lint``` is run, the master branch errors and the fix branch succeeds
